@@ -3,17 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Saya</title>
+    <title>Info Pribadi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="profile-card">
-            <img src="https://storage.googleapis.com/gce-dicoding/profil.jpg" alt="Profile Image" class="profile-image">
-            <h1>Rio Andrew Permadi</h1>
-            <h2>Mahasiswa</h2>
-            <p>Saya adalah seorang mahasiswa Teknik Informatika yang sedang mengikuti program Bangkit.</p>
+
+    <header class="banner">
+        <img src="https://storage.googleapis.com/gce-dicoding/banner.png" alt="Banner Image">
+        <h1>Selamat Datang di Profil Saya</h1>
+    </header>
+
+    <main class="main-content">
+        
+        <section class="profile-section" aria-labelledby="profile-title">
+            <article class="profile-card">
+                <img src="https://storage.googleapis.com/gce-dicoding/profil.jpg" alt="Profile Image" class="profile-image">
+                <h2 id="profile-title">Rio Andrew Permadi</h2>
+                <p class="subtitle">Mahasiswa Teknik Informatika</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </article>
+        </section>
+
+        <section class="my-story" aria-labelledby="story-title">
+            <h2 id="story-title">Tentang Saya</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </section>
+
+    </main>
+
+    <section class="additional-info">
+        
+        <aside class="contact-section" aria-labelledby="contact-title">
+            <h2 id="contact-title">Kontak Saya</h2>
+            <p><strong>Phone:</strong> +62-895-1079-3994</p>
+            <p><strong>Email:</strong> riopermadi0036@gmail.com</p>
+        </aside>
+
+        <section class="skills-section" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skill</h2>
+            <div class="skills">
+                <article class="skill">
+                    <img src="https://storage.googleapis.com/gce-dicoding/html.png" alt="HTML Icon">
+                    <p>HTML</p>
+                </article>
+                <article class="skill">
+                    <img src="https://storage.googleapis.com/gce-dicoding/css-3.png" alt="CSS Icon">
+                    <p>CSS</p>
+                </article>
+                <article class="skill">
+                    <img src="https://storage.googleapis.com/gce-dicoding/js.png" alt="JavaScript Icon">
+                    <p>JavaScript</p>
+                </article>
+                <article class="skill">
+                    <img src="https://storage.googleapis.com/gce-dicoding/docker.png">
+                    <p>Docker</p>
+                </article>
+            </div>
+        </section>
+
+    </section>
+
+    <footer>
+        <h2>Temukan Saya!</h2>
+        <div class="social-icons">
+            <a href="https://github.com/andrewuwuu/" target="_blank" rel="noopener noreferrer">
+                <img src="https://storage.googleapis.com/gce-dicoding/github.png" alt="GitHub" class="icon">
+            </a>
+            <a href="https://www.linkedin.com/in/rio-andrew-permadi-a10b05333" target="_blank" rel="noopener noreferrer">
+                <img src="https://storage.googleapis.com/gce-dicoding/linkedin.png" alt="LinkedIn" class="icon">
+            </a>
         </div>
-    </div>
+        <p>&copy; 2024 Rio Andrew Permadi. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
